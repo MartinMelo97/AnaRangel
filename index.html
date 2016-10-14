@@ -9,6 +9,16 @@
   		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 			<style type="text/css">
 
+			body {
+			    display: flex;
+			    min-height: 100vh;
+			    flex-direction: column;
+			  }
+
+			  main {
+			    flex: 1 0 auto;
+			  }
+
 			.logo{
 				height:64px;
 			}
@@ -34,7 +44,7 @@
 			</style>
 	</head>
 	<body>
-		
+		<header>
 		<nav>
 		    <div class="nav-wrapper" style="background-color: #0032A0;">
 		      <a href="#!" class="brand-logo"><img class="logo" src="http://sitios.itesm.mx/webtools/11_viii_14/principal_isologo.jpg"></a>
@@ -74,6 +84,8 @@
 		      </ul>
 		    </div>
 		  </nav>
+		 </header>
+		 <main>
 			<div class="container">
 				<div class="row">
 					<div class="col l12 m12 s12" style="text-align:justify; font-size:1.3em;">
@@ -94,12 +106,14 @@
 
 				</div>
 			</div>
+			</main>
 		<footer class="page-footer" style="background-color:#fff;">
           <div class="footer-copyright" style="background-color: #0032A0;">
             <div class="container">
             Proyecto de Ciencia y Tecnología - Grupo 5
             </div>
           </div>
+
         </footer>
 		<!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
